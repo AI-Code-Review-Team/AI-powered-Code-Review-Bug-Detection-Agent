@@ -467,7 +467,7 @@ A: Yes, for the MVP. tree-sitter supports 100+ languages, so adding JavaScript o
 
 ## 📄 License
 
-This project was built as an academic portfolio project by a 9-member team at CVRGU as part of the IoT & Cybersecurity programme.
+This project was built as an academic portfolio project at CVRGU as part of the AI Training programme.
 
 ---
 
