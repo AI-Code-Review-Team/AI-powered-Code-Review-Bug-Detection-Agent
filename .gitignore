@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+
+# Database files
+*.db
+
+# Ignore ngrok executable
+ngrok.exe
+
+# VS Code
+.vscode/
