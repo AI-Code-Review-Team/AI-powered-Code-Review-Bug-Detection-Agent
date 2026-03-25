@@ -1,2 +1,2 @@
 password = "12345"
-print("debug")
+print("debug updated")
