@@ -1,2 +1,2 @@
-password = "1234565882"   # changed
+password = "1234562522"   # changed
 print("debug updated")
