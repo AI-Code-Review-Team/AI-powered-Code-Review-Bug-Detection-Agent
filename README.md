@@ -94,28 +94,28 @@ PEP 8 · Missing Docstrings · Type Hints · Magic Numbers · Unclear Names · *
                    └──────────┬──────────┘
                               │
          ┌────────────────────▼─────────────────────┐
-         │            LangGraph Pipeline             │
-         │                                           │
-         │          ┌─── Orchestrator ───┐           │
-         │          │                   │           │
-         │    ┌─────▼─────┐  ┌──────────▼──┐  ┌────▼──────┐
-         │    │ Security  │  │ Performance │  │  Style    │
-         │    │  Agent    │  │   Agent     │  │  Agent    │
-         │    │ OWASP Top │  │ N+1, O(n²) │  │  PEP 8   │
-         │    └─────┬─────┘  └──────┬──────┘  └────┬──────┘
+         │            LangGraph Pipeline            │
+         │                                          │
+         │          ┌─── Orchestrator ───┐          │
+         │          │                    │          │
+         │    ┌─────▼─────┐  ┌──────────▼──┐   ┌────▼──────┐
+         │    │ Security  │  │ Performance │   │  Style    │
+         │    │  Agent    │  │   Agent     │   │  Agent    │
+         │    │ OWASP Top │  │ N+1, O(n²)  │   │  PEP 8    │
+         │    └─────┬─────┘  └──────┬──────┘   └────┬──────┘
          │          └───────────────┼───────────────┘
          │                          │
          │               ┌──────────▼──────────┐
-         │               │    Synthesizer       │
-         │               │  Dedup + Sort        │
-         │               │  High → Medium → Low │
+         │               │    Synthesizer      │
+         │               │  Dedup + Sort       │
+         │               │  High → Medium → Low│
          │               └──────────┬──────────┘
-         └──────────────────────────┼──────────────┘
+         └──────────────────────────┼
                                     │
                    ┌────────────────▼────────────────┐
-                   │       github_client.py           │
-                   │   Post inline PR comments        │
-                   │   (single batched review)        │
+                   │       github_client.py          │
+                   │   Post inline PR comments       │
+                   │   (single batched review)       │
                    └─────────────────────────────────┘
 ```
 
