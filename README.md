@@ -1,14 +1,16 @@
 <div align="center">
 
-<!-- Animated wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7B2FBE&height=200&section=header&text=AI%20Code%20Review%20Agent&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=LangGraph%20%7C%20Tree-sitter%20AST%20%7C%20FastAPI%20%7C%20GPT-4o-mini&descAlignY=58&descSize=18&animation=fadeIn" />
-
-<!-- Animated typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&repeat=true&width=750&height=60&lines=🤖+Automated+Code+Review+via+GitHub+Webhooks;🌳+Tree-sitter+AST+%7C+~95%25+Token+Reduction;⚡+LangGraph+Parallel+Multi-Agent+Pipeline;🔐+Security+%7C+Performance+%7C+Style+Analysis;🚀+Production-Ready+%7C+Docker+%7C+35+Tests+Passing" alt="Typing SVG" />
+<!-- Animated wave header banner — capsule-render is always live -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=AI%20Code%20Review%20Agent&fontSize=52&fontColor=fff&fontAlignY=38&desc=LangGraph%20%7C%20Tree-sitter%20AST%20%7C%20FastAPI%20%7C%20GPT-4o-mini&descAlignY=60&descSize=18&animation=twinkling" />
 
 <br/>
 
-<!-- Animated badges -->
+<!-- Animated typing headline -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=720&height=50&lines=🤖+Automated+Code+Review+via+GitHub+Webhooks;🌳+Tree-sitter+AST+%7C+~95%25+Token+Reduction;⚡+LangGraph+Parallel+Multi-Agent+Pipeline;🔐+Security+%7C+Performance+%7C+Style+Analysis;🚀+Production-Ready+%7C+Docker+%7C+35+Tests+Passing" alt="Typing SVG" />
+
+<br/><br/>
+
+<!-- Badges row 1 -->
 <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117" /></a>
 <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D1117" /></a>
 <a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/LangGraph-1.1.3-FF6B6B?style=for-the-badge&logo=chainlink&logoColor=white&labelColor=0D1117" /></a>
@@ -16,27 +18,29 @@
 
 <br/><br/>
 
+<!-- Badges row 2 -->
 <a href="https://docker.com"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117" /></a>
-<a href="https://pytest.org"><img src="https://img.shields.io/badge/Tests-35%20Passing-00C853?style=for-the-badge&logo=pytest&logoColor=white&labelColor=0D1117" /></a>
+<img src="https://img.shields.io/badge/Tests-35%20Passing-00C853?style=for-the-badge&logo=pytest&logoColor=white&labelColor=0D1117" />
 <img src="https://img.shields.io/badge/Coverage-95%25-00C853?style=for-the-badge&logo=codecov&logoColor=white&labelColor=0D1117" />
 <img src="https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0D1117" />
 
 <br/><br/>
 
-<!-- Animated description -->
-<p>
-<img src="https://readme-typing-svg.demolab.com?font=Roboto&size=16&pause=2000&color=AAAAAA&center=true&vCenter=true&width=750&lines=A+production-ready+AI+agent+that+intercepts+GitHub+Pull+Requests%2C;parses+code+with+Tree-sitter+AST%2C+and+runs+a+parallel+LangGraph;multi-agent+pipeline+to+detect+security+flaws%2C+performance+issues%2C;and+style+violations+—+then+posts+findings+as+inline+PR+comments." alt="Description" />
-</p>
+<!-- Animated subtitle description -->
+<img src="https://readme-typing-svg.demolab.com?font=Roboto&size=15&duration=4000&pause=2000&color=888888&center=true&vCenter=true&width=760&height=40&lines=A+production-ready+AI+agent+that+intercepts+GitHub+Pull+Requests+and+posts+inline+review+comments." alt="subtitle" />
 
 <br/>
 
-<!-- Navigation -->
 [🚀 Quick Start](#-quick-start) • [🏗️ Architecture](#️-architecture) • [⚙️ Installation](#️-installation) • [🐳 Docker](#-docker) • [🧪 Tests](#-running-tests) • [📡 API](#-api-endpoints)
 
 </div>
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+
+<!-- Section divider using capsule-render soft line -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+
+<br/>
 
 ## ✨ Features
 
@@ -89,8 +93,9 @@
 </tr>
 </table>
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🏗️ Architecture
 
@@ -153,14 +158,15 @@
 
 > Tree-sitter builds a full syntax tree and extracts **only** the `function_definition` / `class_definition` nodes that overlap with changed lines. The LLM receives complete, syntactically valid code units — not truncated diff hunks — which also **improves review quality**.
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-<!-- Animated skill icons -->
+<!-- Skill icons — skillicons.dev is always live -->
 <img src="https://skillicons.dev/icons?i=python,fastapi,docker,git,github,vscode,linux&theme=dark&perline=7" />
 
 <br/><br/>
@@ -179,8 +185,9 @@
 
 </div>
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 📁 Project Structure
 
@@ -209,8 +216,9 @@ AI-powered-Code-Review-Bug-Detection-Agent/
 └── 🚫 .gitignore
 ```
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## ⚙️ Installation
 
@@ -223,8 +231,9 @@ AI-powered-Code-Review-Bug-Detection-Agent/
 | 🌐 ngrok *(dev only)* | Any | [ngrok.com/download](https://ngrok.com/download) |
 | 🐳 Docker *(optional)* | Any | [docker.com](https://docker.com/get-started) |
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🚀 Quick Start
 
@@ -326,8 +335,9 @@ Open a Pull Request in your repo — the agent will automatically:
 3. 🌳 Run AST chunking + multi-agent analysis
 4. 💬 Post inline comments on your PR 🎉
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🐳 Docker
 
@@ -348,8 +358,9 @@ docker build -f docker/Dockerfile -t ai-code-review-agent .
 docker run -p 8000:8000 --env-file .env ai-code-review-agent
 ```
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🧪 Running Tests
 
@@ -378,8 +389,9 @@ tests/test_webhook.py::test_webhook_processes_opened_pr        PASSED
 | `tests/test_agents.py` | LLM mocking, all agent nodes, synthesizer dedup/sort, full graph |
 | `tests/test_webhook.py` | Signature validation, event filtering, happy path, error handling |
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 📡 API Endpoints
 
@@ -417,8 +429,9 @@ tests/test_webhook.py::test_webhook_processes_opened_pr        PASSED
 }
 ```
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🔍 How Findings Look on GitHub
 
@@ -441,8 +454,9 @@ Suggested fix: Add a docstring describing parameters and return value.
 
 Findings are always sorted: 🔴 **High** → 🟡 **Medium** → 🟢 **Low**
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🛡️ Rate Limiting & Safety
 
@@ -453,8 +467,9 @@ Findings are always sorted: 🔴 **High** → 🟡 **Medium** → 🟢 **Low**
 | Blocking I/O | All GitHub calls run in thread pool via `run_in_executor` |
 | Webhook security | HMAC-SHA256 signature verified on every request |
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" />
+<br/>
 
 ## 🔧 Troubleshooting
 
@@ -487,32 +502,27 @@ ngrok http 8000                    # terminal 2
 ```
 </details>
 
+<br/>
+
 <!-- Animated footer wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,50:00D9FF,100:0D1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=twinkling" />
 
 <div align="center">
 
-<!-- Animated contribution snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/r4hul-s3thi/r4hul-s3thi/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/r4hul-s3thi/r4hul-s3thi/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/r4hul-s3thi/r4hul-s3thi/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
 <br/>
 
-<!-- Animated profile views counter -->
-<img src="https://komarev.com/ghpvc/?username=r4hul-s3thi&label=Profile+Views&color=00D9FF&style=for-the-badge&labelColor=0D1117" />
+<!-- Animated footer typing -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=1000&color=555555&center=true&vCenter=true&width=440&lines=Made+with+%E2%9D%A4%EF%B8%8F+by+r4hul-s3thi;If+this+helped+you%2C+drop+a+%E2%AD%90+star!" alt="footer typing" />
 
 <br/><br/>
 
-<!-- Animated footer text -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=666666&center=true&vCenter=true&width=500&lines=Made+with+❤️+by+r4hul-s3thi;If+this+helped+you%2C+drop+a+⭐+star!" alt="Footer" />
-
-<br/>
-
 **Made with ❤️ by [r4hul-s3thi](https://github.com/r4hul-s3thi)**
 
-⭐ **Star this repo if you found it useful!** ⭐
+<a href="https://github.com/AI-Code-Review-Team/AI-powered-Code-Review-Bug-Detection-Agent/stargazers">
+<img src="https://img.shields.io/github/stars/AI-Code-Review-Team/AI-powered-Code-Review-Bug-Detection-Agent?style=for-the-badge&logo=github&color=gold&labelColor=0D1117" />
+</a>
+<a href="https://github.com/AI-Code-Review-Team/AI-powered-Code-Review-Bug-Detection-Agent/network/members">
+<img src="https://img.shields.io/github/forks/AI-Code-Review-Team/AI-powered-Code-Review-Bug-Detection-Agent?style=for-the-badge&logo=github&color=blue&labelColor=0D1117" />
+</a>
 
 </div>
