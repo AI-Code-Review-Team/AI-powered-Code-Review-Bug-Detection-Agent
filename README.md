@@ -1,30 +1,42 @@
 <div align="center">
 
-# 🤖 AI-Powered Code Review & Bug Detection Agent
+<!-- Animated wave banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7B2FBE&height=200&section=header&text=AI%20Code%20Review%20Agent&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=LangGraph%20%7C%20Tree-sitter%20AST%20%7C%20FastAPI%20%7C%20GPT-4o-mini&descAlignY=58&descSize=18&animation=fadeIn" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Automated+Code+Review+via+GitHub+Webhooks;Tree-sitter+AST+%7C+95%25+Token+Reduction;LangGraph+Multi-Agent+Pipeline;Security+%7C+Performance+%7C+Style+Analysis" alt="Typing SVG" />
-
-<br/>
-
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1.1.3-FF6B6B?style=for-the-badge&logo=chainlink&logoColor=white)](https://langchain-ai.github.io/langgraph/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Tests](https://img.shields.io/badge/Tests-35%20Passing-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+<!-- Animated typing SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&repeat=true&width=750&height=60&lines=🤖+Automated+Code+Review+via+GitHub+Webhooks;🌳+Tree-sitter+AST+%7C+~95%25+Token+Reduction;⚡+LangGraph+Parallel+Multi-Agent+Pipeline;🔐+Security+%7C+Performance+%7C+Style+Analysis;🚀+Production-Ready+%7C+Docker+%7C+35+Tests+Passing" alt="Typing SVG" />
 
 <br/>
 
-> **A production-ready AI agent that intercepts GitHub Pull Requests, parses code with Tree-sitter AST, and runs a parallel LangGraph multi-agent pipeline to detect security flaws, performance issues, and style violations — then posts findings as inline PR comments.**
+<!-- Animated badges -->
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117" /></a>
+<a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D1117" /></a>
+<a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/LangGraph-1.1.3-FF6B6B?style=for-the-badge&logo=chainlink&logoColor=white&labelColor=0D1117" /></a>
+<a href="https://openai.com"><img src="https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=0D1117" /></a>
+
+<br/><br/>
+
+<a href="https://docker.com"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117" /></a>
+<a href="https://pytest.org"><img src="https://img.shields.io/badge/Tests-35%20Passing-00C853?style=for-the-badge&logo=pytest&logoColor=white&labelColor=0D1117" /></a>
+<img src="https://img.shields.io/badge/Coverage-95%25-00C853?style=for-the-badge&logo=codecov&logoColor=white&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0D1117" />
+
+<br/><br/>
+
+<!-- Animated description -->
+<p>
+<img src="https://readme-typing-svg.demolab.com?font=Roboto&size=16&pause=2000&color=AAAAAA&center=true&vCenter=true&width=750&lines=A+production-ready+AI+agent+that+intercepts+GitHub+Pull+Requests%2C;parses+code+with+Tree-sitter+AST%2C+and+runs+a+parallel+LangGraph;multi-agent+pipeline+to+detect+security+flaws%2C+performance+issues%2C;and+style+violations+—+then+posts+findings+as+inline+PR+comments." alt="Description" />
+</p>
 
 <br/>
 
+<!-- Navigation -->
 [🚀 Quick Start](#-quick-start) • [🏗️ Architecture](#️-architecture) • [⚙️ Installation](#️-installation) • [🐳 Docker](#-docker) • [🧪 Tests](#-running-tests) • [📡 API](#-api-endpoints)
 
 </div>
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## ✨ Features
 
@@ -77,7 +89,8 @@
 </tr>
 </table>
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🏗️ Architecture
 
@@ -140,45 +153,78 @@
 
 > Tree-sitter builds a full syntax tree and extracts **only** the `function_definition` / `class_definition` nodes that overlap with changed lines. The LLM receives complete, syntactically valid code units — not truncated diff hunks — which also **improves review quality**.
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<!-- Animated skill icons -->
+<img src="https://skillicons.dev/icons?i=python,fastapi,docker,git,github,vscode,linux&theme=dark&perline=7" />
+
+<br/><br/>
+
+| Layer | Technology |
+|:---|:---|
+| 🌐 Web Framework | [FastAPI](https://fastapi.tiangolo.com) + Uvicorn |
+| 🤖 AI Orchestration | [LangGraph 1.x](https://langchain-ai.github.io/langgraph/) |
+| 🧠 LLM | [OpenAI GPT-4o-mini](https://openai.com) via LangChain |
+| 🌳 AST Parsing | [Tree-sitter](https://tree-sitter.github.io) + tree-sitter-python |
+| 🐙 GitHub Integration | [PyGithub](https://pygithub.readthedocs.io) |
+| 🔗 HTTP Client | [httpx](https://www.python-httpx.org) |
+| ⚙️ Config | [python-dotenv](https://pypi.org/project/python-dotenv/) |
+| 🧪 Testing | [pytest](https://pytest.org) + pytest-asyncio |
+| 🐳 Containerisation | Docker + docker-compose |
+
+</div>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📁 Project Structure
 
 ```
 AI-powered-Code-Review-Bug-Detection-Agent/
 │
-├── 🚀 main.py              # FastAPI entrypoint + webhook handler
-├── 🤖 agents.py            # LangGraph state machine + all agent nodes
-├── 🌳 parser.py            # Tree-sitter AST semantic chunker
-├── 🐙 github_client.py     # GitHub API: fetch PR data, post comments
-├── ⚙️  config.py            # Env-var loading via python-dotenv
+├── 📁 src/                        ← Application source code
+│   ├── 🚀 main.py                 FastAPI entrypoint + webhook handler
+│   ├── 🤖 agents.py               LangGraph state machine + agent nodes
+│   ├── 🌳 parser.py               Tree-sitter AST semantic chunker
+│   ├── 🐙 github_client.py        GitHub API: fetch PR data, post comments
+│   └── ⚙️  config.py               Env-var loading via python-dotenv
 │
-├── 🧪 test_parser.py       # Unit tests — diff parsing, AST, token reduction
-├── 🧪 test_agents.py       # Unit tests — LLM mocking, agents, synthesizer
-├── 🧪 test_webhook.py      # Integration tests — FastAPI endpoints
+├── 📁 tests/                      ← All test files
+│   ├── 🧪 test_parser.py          Diff parsing, AST, token reduction
+│   ├── 🧪 test_agents.py          LLM mocking, agents, synthesizer
+│   └── 🧪 test_webhook.py         FastAPI endpoint integration tests
 │
-├── 🐳 Dockerfile
-├── 🐳 docker-compose.yml
+├── 📁 docker/                     ← Container configuration
+│   ├── 🐳 Dockerfile
+│   └── 🐳 docker-compose.yml
+│
 ├── 📦 requirements.txt
-└── 🔑 .env.example
+├── 🔧 pytest.ini
+├── 🔑 .env.example
+└── 🚫 .gitignore
 ```
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## ⚙️ Installation
 
 ### Prerequisites
 
-Make sure you have these installed on your PC:
-
 | Tool | Version | Download |
 |:---|:---:|:---:|
-| Python | 3.11+ | [python.org](https://python.org/downloads) |
-| Git | Any | [git-scm.com](https://git-scm.com/downloads) |
-| ngrok (dev only) | Any | [ngrok.com/download](https://ngrok.com/download) |
-| Docker (optional) | Any | [docker.com](https://docker.com/get-started) |
+| 🐍 Python | 3.11+ | [python.org](https://python.org/downloads) |
+| 🔧 Git | Any | [git-scm.com](https://git-scm.com/downloads) |
+| 🌐 ngrok *(dev only)* | Any | [ngrok.com/download](https://ngrok.com/download) |
+| 🐳 Docker *(optional)* | Any | [docker.com](https://docker.com/get-started) |
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🚀 Quick Start
 
@@ -192,11 +238,11 @@ cd AI-powered-Code-Review-Bug-Detection-Agent
 ### Step 2 — Create a virtual environment
 
 ```bash
-# Windows
+# 🪟 Windows
 python -m venv venv
 venv\Scripts\activate
 
-# macOS / Linux
+# 🍎 macOS / 🐧 Linux
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -210,10 +256,10 @@ pip install -r requirements.txt
 ### Step 4 — Configure environment variables
 
 ```bash
-# Windows
+# 🪟 Windows
 copy .env.example .env
 
-# macOS / Linux
+# 🍎 macOS / 🐧 Linux
 cp .env.example .env
 ```
 
@@ -234,16 +280,15 @@ LLM_MODEL=gpt-4o-mini
 ```
 
 > 🔑 **Get your keys:**
-> - GitHub Token → [github.com/settings/tokens](https://github.com/settings/tokens) → Classic token → select `repo` scope
+> - GitHub Token → [github.com/settings/tokens](https://github.com/settings/tokens) → Classic token → `repo` scope
 > - OpenAI Key → [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 
 ### Step 5 — Run the server
 
 ```bash
-uvicorn main:app --reload --port 8000
+uvicorn src.main:app --reload --port 8000
 ```
 
-You should see:
 ```
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process
@@ -271,42 +316,40 @@ Copy the HTTPS URL shown, e.g. `https://abc123.ngrok-free.app`
 | Secret | Same value as `GITHUB_WEBHOOK_SECRET` in your `.env` |
 | Events | ✅ **Pull requests** only |
 
-3. Click **Add webhook** — GitHub will send a ping and you'll see a ✅ green tick
+3. Click **Add webhook** — GitHub sends a ping → you'll see a ✅ green tick
 
 ### Step 8 — Test it!
 
 Open a Pull Request in your repo — the agent will automatically:
-1. Receive the webhook event
-2. Fetch the diff and changed files
-3. Run AST chunking + multi-agent analysis
-4. Post inline comments on your PR 🎉
+1. 📥 Receive the webhook event
+2. 📂 Fetch the diff and changed files
+3. 🌳 Run AST chunking + multi-agent analysis
+4. 💬 Post inline comments on your PR 🎉
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🐳 Docker
 
-The easiest way to run on any machine with Docker installed:
-
 ```bash
-# Clone the repo
+# Clone & configure
 git clone https://github.com/AI-Code-Review-Team/AI-powered-Code-Review-Bug-Detection-Agent.git
 cd AI-powered-Code-Review-Bug-Detection-Agent
-
-# Copy and fill in your .env
-cp .env.example .env   # then edit .env with your keys
+cp .env.example .env   # fill in your keys
 
 # Build and run with docker-compose
-docker-compose up --build
+docker-compose -f docker/docker-compose.yml up --build
 ```
 
 Or with plain Docker:
 
 ```bash
-docker build -t ai-code-review-agent .
+docker build -f docker/Dockerfile -t ai-code-review-agent .
 docker run -p 8000:8000 --env-file .env ai-code-review-agent
 ```
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🧪 Running Tests
 
@@ -316,26 +359,27 @@ Tests use **mocked LLM and GitHub API calls** — no real credentials needed:
 pytest -v
 ```
 
-Expected output:
 ```
-test_parser.py::test_parse_diff_hunks_returns_correct_file    PASSED
-test_parser.py::test_ast_extracts_function                    PASSED
-test_parser.py::test_token_reduction_demonstration            PASSED
-test_agents.py::test_security_agent_returns_findings          PASSED
-test_agents.py::test_synthesizer_sorts_by_severity            PASSED
-test_agents.py::test_full_graph_returns_final_findings        PASSED
-test_webhook.py::test_webhook_processes_opened_pr             PASSED
+tests/test_agents.py::test_call_llm_parses_json_array          PASSED
+tests/test_agents.py::test_security_agent_returns_findings     PASSED
+tests/test_agents.py::test_synthesizer_sorts_by_severity       PASSED
+tests/test_agents.py::test_full_graph_returns_final_findings   PASSED
+tests/test_parser.py::test_parse_diff_hunks_returns_correct_file PASSED
+tests/test_parser.py::test_ast_extracts_function               PASSED
+tests/test_parser.py::test_token_reduction_demonstration       PASSED
+tests/test_webhook.py::test_webhook_processes_opened_pr        PASSED
 ...
-====================== 35 passed in 3.92s ======================
+====================== 35 passed in 3.64s ======================
 ```
 
-| Test File | Coverage |
+| Test File | What's Covered |
 |:---|:---|
-| `test_parser.py` | Diff parsing, AST extraction, regex fallback, token reduction |
-| `test_agents.py` | LLM mocking, all agent nodes, synthesizer dedup/sort, full graph |
-| `test_webhook.py` | Signature validation, event filtering, happy path, error handling |
+| `tests/test_parser.py` | Diff parsing, AST extraction, regex fallback, token reduction |
+| `tests/test_agents.py` | LLM mocking, all agent nodes, synthesizer dedup/sort, full graph |
+| `tests/test_webhook.py` | Signature validation, event filtering, happy path, error handling |
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📡 API Endpoints
 
@@ -373,35 +417,32 @@ test_webhook.py::test_webhook_processes_opened_pr             PASSED
 }
 ```
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🔍 How Findings Look on GitHub
 
-When the agent reviews a PR, it posts inline comments like this:
-
 ```
 🔴 [High] SQL injection via f-string interpolation
-
 Suggested fix: Use parameterised queries:
 db.execute('SELECT * FROM users WHERE name=?', (user,))
 ```
 
 ```
 🟡 [Medium] N+1 query pattern — DB call inside a for-loop
-
 Suggested fix: Use bulk fetch before the loop:
 users = User.objects.filter(id__in=user_ids)
 ```
 
 ```
 🟢 [Low] Missing docstring on public function `process_payment`
-
 Suggested fix: Add a docstring describing parameters and return value.
 ```
 
 Findings are always sorted: 🔴 **High** → 🟡 **Medium** → 🟢 **Low**
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🛡️ Rate Limiting & Safety
 
@@ -412,7 +453,8 @@ Findings are always sorted: 🔴 **High** → 🟡 **Medium** → 🟢 **Low**
 | Blocking I/O | All GitHub calls run in thread pool via `run_in_executor` |
 | Webhook security | HMAC-SHA256 signature verified on every request |
 
----
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🔧 Troubleshooting
 
@@ -427,46 +469,49 @@ pip install tree-sitter==0.25.2 tree-sitter-python==0.23.6
 <details>
 <summary><b>❌ OpenAI AuthenticationError</b></summary>
 
-Make sure your `.env` file has a valid `OPENAI_API_KEY` and the file is in the project root directory.
+Make sure your `.env` file has a valid `OPENAI_API_KEY` and is in the project root.
 </details>
 
 <details>
 <summary><b>❌ Webhook shows "Invalid signature"</b></summary>
 
-Ensure `GITHUB_WEBHOOK_SECRET` in your `.env` exactly matches the secret you entered in GitHub's webhook settings.
+Ensure `GITHUB_WEBHOOK_SECRET` in `.env` exactly matches the secret in GitHub's webhook settings.
 </details>
 
 <details>
 <summary><b>❌ ngrok tunnel not working</b></summary>
 
-Make sure the server is running on port 8000 before starting ngrok:
 ```bash
-uvicorn main:app --port 8000   # terminal 1
-ngrok http 8000                # terminal 2
+uvicorn src.main:app --port 8000   # terminal 1
+ngrok http 8000                    # terminal 2
 ```
 </details>
 
----
-
-## 🧰 Tech Stack
-
-| Layer | Technology |
-|:---|:---|
-| Web Framework | [FastAPI](https://fastapi.tiangolo.com) |
-| AI Orchestration | [LangGraph 1.x](https://langchain-ai.github.io/langgraph/) |
-| LLM | [OpenAI GPT-4o-mini](https://openai.com) via LangChain |
-| AST Parsing | [Tree-sitter](https://tree-sitter.github.io) + tree-sitter-python |
-| GitHub Integration | [PyGithub](https://pygithub.readthedocs.io) |
-| HTTP Client | [httpx](https://www.python-httpx.org) |
-| Config | [python-dotenv](https://pypi.org/project/python-dotenv/) |
-| Testing | [pytest](https://pytest.org) + pytest-asyncio |
-| Containerisation | Docker + docker-compose |
-
----
+<!-- Animated footer wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,50:00D9FF,100:0D1117&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
-Made with ❤️ by [r4hul-s3thi](https://github.com/r4hul-s3thi)
+<!-- Animated contribution snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/r4hul-s3thi/r4hul-s3thi/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/r4hul-s3thi/r4hul-s3thi/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/r4hul-s3thi/r4hul-s3thi/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+<br/>
+
+<!-- Animated profile views counter -->
+<img src="https://komarev.com/ghpvc/?username=r4hul-s3thi&label=Profile+Views&color=00D9FF&style=for-the-badge&labelColor=0D1117" />
+
+<br/><br/>
+
+<!-- Animated footer text -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=666666&center=true&vCenter=true&width=500&lines=Made+with+❤️+by+r4hul-s3thi;If+this+helped+you%2C+drop+a+⭐+star!" alt="Footer" />
+
+<br/>
+
+**Made with ❤️ by [r4hul-s3thi](https://github.com/r4hul-s3thi)**
 
 ⭐ **Star this repo if you found it useful!** ⭐
 
